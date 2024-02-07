@@ -19,8 +19,7 @@ public class FixedThreadPoolTest {
             int task = i;
             threadPool.execute(() -> {
                 System.out.println("Выполнение задачи " + task + " потоком " + Thread.currentThread().getName());
-                if (!tasksExecuted[task]) tasksExecuted[task] = true;
-                else tasksExecuted[task] = false;
+                tasksExecuted[task] = !tasksExecuted[task];
             });
         }
 

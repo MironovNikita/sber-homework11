@@ -2,7 +2,7 @@ package org.example.threadPool;
 
 public interface ThreadPool {
     /**
-     * Starts streams. Threads are idle, until a new job appears in the queue (see execute).
+     * Starts threads. Threads are idle, until a new job appears in the queue (see execute).
      */
     void start();
 

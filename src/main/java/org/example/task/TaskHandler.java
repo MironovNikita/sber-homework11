@@ -35,7 +35,7 @@ public class TaskHandler {
     private void printMenu() {
         System.out.println(
                 """
-                        Задание №11
+                        Задание №11 - ThreadPool
                         Пожалуйста, выберите одну из цифр (0-2) для выбора проверки задания:
                         1 - Проверка работы FixedThreadPool
                         2 - Проверка работы ScalableThreadPool
